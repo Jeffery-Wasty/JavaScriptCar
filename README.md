@@ -18,4 +18,4 @@ the window with a change in x and y, and expanded with a change in the radius. T
 
 Demo available at:
 
-http://wasty-jeffery-cafe-website.azurewebsites.net
+https://wasty-jeffery-javascript-car.azurewebsites.net
