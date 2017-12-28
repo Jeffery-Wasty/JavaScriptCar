@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hoang, Mike; Nirajan, Manandhar; Wasty, Jeffery</title>
+    <meta charset="utf-8">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./style/stylesheet.css" rel="stylesheet">
+    <link href="./images/icon.png" rel="icon">
+    <script src="car.js"></script>
+</head>
+
+<body onLoad="drawCircle()">
+    <br/><h1>Smoke Demonstration</h1><br/>
+    <canvas id="myCar" width="800" height="400"></canvas>
+    <div id="slidecontainer"><br/>
+    <label>Speed Control</label>
+    <input type="range" min="10" max="60" value="35" class="slider" id="myRange"><br/>
+    <button onclick="blue()" class="btn btn-primary btn-lg">Blue Car</button>
+    <button onclick="yellow()" class="btn btn-warning btn-lg">Yellow Car</button>
+    <button onclick="red()" class="btn btn-danger btn-lg">Red Car</button>
+    <button onclick="white()" class="btn btn-default btn-lg">White Car</button>
+    <br/>
+    <br/>
+    <br/>
+    <table>
+    	<tr>
+    		<td>Mike Hoang<br/>
+    			A01020970<br/>
+    			Set 1D<br/>
+    			mhoang11@my.bcit.ca<br/><br/>
+    		</td>
+    		<td>Nirajan Manandhar<br/>
+    			A01025660<br/>
+    			Set 1D<br/>
+    			nmanandhar@my.bcit.ca<br/><br/>
+    		</td>
+    		<td>Jeffery Wasty<br/>
+    			A01027014<br/>
+    			Set 1D<br/>
+    			jwasty@my.bcit.ca<br/><br/>
+    		</td>
+    	</tr>
+    </table>
+    <h3>Everything is completed.</h3>
+    <h3>Nothing is uncompleted.</h3><br/>
+	<ul>
+		<li class="title-line">Major challenges we faced creating this project:<br/><br/></li>
+		<li>Coordinating with group members.</li>
+		<li>Drawing the car. The car is created with multiple polygons.</li>
+		<li>
+			<p>Animating the smoke. We decided on changing the x, y, and radius of each smoke circle, having them expand and move towards the upper right corner.</p>
+		</li>
+	</ul>
+	<br/>
+    </div>
+</body>
+</html>
