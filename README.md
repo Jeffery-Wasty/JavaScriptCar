@@ -4,7 +4,7 @@ A01027014
 
 Set 1D
 
-jeff.wasty@gmail.com
+jwasty@my.bcit.ca
 
 
 
